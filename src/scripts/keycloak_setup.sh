@@ -15,7 +15,6 @@ DEFAULT='\033[0m'
 ####################################################
 #              VARIABLES CONFIGURATION             #
 ####################################################
-# KEYCLOAK_VERSION=24.0.0
 KEYCLOAK_ADMIN=$(cat ../secrets/kc-admin-user.txt)
 KEYCLOAK_ADMIN_PASSWORD=$(cat ../secrets/kc-admin-password.txt)
 READY_CHECK_URL="http://localhost:8080/health/ready"
