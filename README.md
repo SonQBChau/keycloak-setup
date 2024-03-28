@@ -1,7 +1,10 @@
-# keycloak-setup
+# Getting Started
 
-To start:
+Open your terminal and follow these steps to get your Keycloak instance up and running:
+
+```sh
 cd src
-docker-compose -p <custom_name> up -d
-cd src/scripts
+docker-compose up -d
+cd scripts
 sh keycloak_setup.sh
+```
